@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    background-color: #EAC926
+}
+
+header p {
+    font-size: 14px;
+}
+
+header nav ul li {
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+    color: black;
+    text-align: left;
+}
+
+header i {
+    color: black
+}
+
+.buscarListas i {
+    background: #1669c2;
+    padding: 5px;
+    color: white;
+    position: relative;
+}
+
+.buscarListas {
+    color: #1669c2;
+    background: #EAC926;
+    border: #EAC926;
+    text-align: center;
+}
+
+.articulosEnVenta {
+    width: 50vw;
+}
+
+section p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 10%;
+}
+
+footer {
+    background-color: #ebebeb;
+    text-align: center;
+    color: black;
+}
+
+footer i {
+    color: #1669c2;
+}
+
+footer h4 {
+    font-size: 18px;
+    color: black;
+    line-height: 30%;
+}
+
+footer h5 {
+    font-size: 12px;
+    text-align: left
+}
+
+footer p {
+    font-size: 12px;
+}
+
+p {
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 18px;
+    color: black;
+}
+
+h5 {
+    font-size: 16px;
+    color: black
+}
+
+.tarjeta {
+    color: #1669c2;
+}
+
+.regalo {
+    color: #1669c2;
+}
+
+.seguridad {
+    color: #1669c2;
+}
+
+.manito {
+    color: black;
+}
+
+li {
+    color: black;
+}
