@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ebebeb
 }
 
 header {
@@ -36,7 +37,23 @@ header i {
 }
 
 .articulosEnVenta {
-    width: 50vw;
+    background: #ebebeb;
+    padding: 10px;
+    width: 90%;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    max-width: 90%;
+    max-height: 100%;
+}
+
+.articulosEnVenta img {
+    text-align: center;
+    border-left: 15px;
+    box-align: center
 }
 
 section p {
@@ -112,4 +129,21 @@ h5 {
 
 li {
     color: black;
+}
+
+article i {
+    color: #39b54a;
+    border-radius: 10px;
+}
+
+.descripcionArticulo {
+    background: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    body {
+        background: rgb(0, 255, 13);
+    }
 }
