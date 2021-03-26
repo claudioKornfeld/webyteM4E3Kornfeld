@@ -1,149 +1,270 @@
-body {
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: #ebebeb
-}
-
-header {
-    background-color: #EAC926
-}
-
-header p {
-    font-size: 14px;
-}
-
-header nav ul li {
-    font-family: 'Roboto Condensed', sans-serif;
-    list-style: none;
-    color: black;
-    text-align: left;
-}
-
-header i {
-    color: black
-}
-
-.buscarListas i {
-    background: #1669c2;
-    padding: 5px;
-    color: white;
-    position: relative;
-}
-
-.buscarListas {
-    color: #1669c2;
-    background: #EAC926;
-    border: #EAC926;
-    text-align: center;
-}
-
-.articulosEnVenta {
-    background: #ebebeb;
-    padding: 10px;
-    width: 90%;
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    max-width: 90%;
-    max-height: 100%;
-}
-
-.articulosEnVenta img {
-    text-align: center;
-    border-left: 15px;
-    box-align: center
-}
-
-section p {
-    font-size: 16px;
-    text-align: left;
-    line-height: 10%;
-}
-
-footer {
-    background-color: #ebebeb;
-    text-align: center;
-    color: black;
-}
-
-footer i {
-    color: #1669c2;
-}
-
-footer h4 {
-    font-size: 18px;
-    color: black;
-    line-height: 30%;
-}
-
-footer h5 {
-    font-size: 12px;
-    text-align: left
-}
-
-footer p {
-    font-size: 12px;
-}
-
-p {
-    font-size: 12px;
-    text-align: center;
-    color: black;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-h3 {
-    font-size: 18px;
-}
-
-h4 {
-    font-size: 18px;
-    color: black;
-}
-
-h5 {
-    font-size: 16px;
-    color: black
-}
-
-.tarjeta {
-    color: #1669c2;
-}
-
-.regalo {
-    color: #1669c2;
-}
-
-.seguridad {
-    color: #1669c2;
-}
-
-.manito {
-    color: black;
-}
-
-li {
-    color: black;
-}
-
-article i {
-    color: #39b54a;
-    border-radius: 10px;
-}
-
-.descripcionArticulo {
-    background: white;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-    body {
-        background: rgb(0, 255, 13);
-    }
-}
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: 'Roboto', sans-serif;
+     background-color: #ebebeb;
+ }
+ 
+ .section {
+     display: flex;
+     justify-content: space-between;
+     background-color: black;
+ }
+ 
+ h3 {
+     font-size: 24px;
+ }
+ 
+ p {
+     font-size: 12px;
+ }
+ 
+ .header {
+     background-color: #EAC926;
+     padding-bottom: 10px;
+     display: flex;
+     border: 1px solid black;
+     flex-flow: column wrap;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .formulario {
+     font-size: 16px;
+     margin-left: auto;
+     margin-right: auto;
+     border: 3px solid red;
+     background-color: violet;
+     align-content: right;
+ }
+ 
+ .medioPago {
+     font-size: 16px;
+     margin-left: auto;
+     margin-right: auto;
+     border: 3px solid rgb(21, 255, 0);
+     background-color: rgb(146, 130, 238);
+     align-content: left;
+ }
+ 
+ div.cabecera {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 5%;
+ }
+ 
+ .logo {
+     display: flex;
+     flex-flow: column wrap;
+     width: 50%;
+     flex: 1 1 auto;
+ }
+ 
+ .rubros {
+     display: flex;
+     flex-flow: column wrap;
+     font-size: 14px;
+     color: black;
+     width: 40px;
+     text-align: right;
+     margin-left: auto;
+     margin-right: auto;
+     flex: 1 1 auto;
+     padding-top: 30px;
+ }
+ 
+ header div.logo,
+ header .rubros {
+     width: 50%;
+ }
+ 
+ .manito {
+     color: black;
+     font-size: 14px;
+     padding: 10px
+ }
+ 
+ .navegar ul li {
+     list-style: none;
+     text-align: left;
+ }
+ 
+ .navegar ul li a {
+     text-decoration: none;
+     color: #000;
+ }
+ 
+ .buscarListas {
+     background: #EAC926;
+     color: #1259c3;
+     text-align: center;
+ }
+ 
+ section.banner img {
+     width: 90%;
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ /* aca va el main*/
+ 
+ main {
+     width: 90%;
+     margin: 0 auto;
+ }
+ 
+ h3 {
+     font-size: 18px;
+ }
+ 
+ .titulos {
+     display: flex;
+     background: #ebebeb;
+     font-size: 24 px;
+     width: 90%;
+     text-align: left;
+     margin-left: auto;
+     margin-right: auto;
+     flex: 1 1 40%
+ }
+ 
+ section {
+     background: #ebebeb;
+ }
+ 
+ .precios {
+     display: flex;
+     flex-flow: column nowrap;
+     font-size: 18px;
+ }
+ 
+ .descuento {
+     font-size: 16px;
+     width: 50%
+ }
+ 
+ .detalle {
+     font-size: 16px;
+ }
+ 
+ .articulosEnVenta {
+     display: flex;
+     flex-flow: row wrap;
+     flex: 2 1 auto;
+     background: #ebebeb;
+     /*border-top: 1px solid black;*/
+     margin-left: auto;
+     margin-right: auto;
+     border-bottom: 10px solid #ebebeb;
+     position: relative;
+     /*background-color: blanchedalmond;*/
+     flex: 1 1 40%;
+ }
+ 
+ .imgArticulo {
+     display: flex;
+     width: 100%;
+     flex: 1 1 40%;
+ }
+ 
+ .boxArticulo {
+     display: flex;
+     flex-flow: row wrap;
+     flex: 1 1 auto;
+     background: white;
+     padding: 15px;
+     position: relative;
+     border-top: 1px solid #ebebeb
+ }
+ 
+ .camion {
+     display: flex;
+     color: #39b54a;
+     background-color: white;
+     border: 2px solid #39b54a;
+     border-radius: 20%;
+     width: 25px;
+     position: absolute;
+     top: -15px;
+     right: 20px;
+ }
+ 
+ h2 {
+     font-size: 24px;
+ }
+ 
+ .buscarListas i {
+     background: #1259c3;
+     padding: 5px;
+     color: white;
+     position: relative;
+ }
+ 
+ .footer {
+     display: flex;
+     flex-flow: wrap;
+     background: white;
+     padding: 25px;
+     justify-content: center;
+     align-self: center;
+     margin-left: auto;
+     margin-right: auto;
+     box-sizing: border-box;
+ }
+ 
+ .pie {
+     background-color: white;
+     justify-content: center;
+     text-align: center;
+     border-bottom: 15px solid white;
+ }
+ 
+ .pie i {
+     color: #1259c3;
+     align-self: center;
+ }
+ 
+ .footer p {
+     font-size: 12px;
+ }
+ 
+ .footer h4 {
+     font-size: 18px;
+ }
+ 
+ @media screen and (max-width: 800px) {
+     .section {
+         flex-direction: column;
+     }
+     .manito {
+         visibility: hidden;
+     }
+     .rubros {
+         visibility: hidden;
+     }
+     .navegar {
+         visibility: hidden;
+     }
+     .detalle {
+         visibility: hidden;
+     }
+     .articulosEnVenta {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     }
+ }
+ 
+ @media screen and (min-width:801px) {
+     .section {
+         flex-direction: row;
+     }
+     .buscarListas {
+         visibility: hidden;
+     }
+ }
